@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HALAMAN LOGIN</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="login-page">
+      <section class="visual">
+        <img src="image/background.jpg" alt="login" />
+      </section>
+
+      <section class="form">
+        <div class="login-container">
+          <div class="login-logo">
+            <h1>hanje.</h1>
+          </div>
+          <p class="subtitle">Welcome back!</p>
+
+          <button type="button" class="google-button">
+            <img src="image/icon_google.png" alt="Google logo" />
+            Continue with Google
+          </button>
+
+          <div class="divider">
+            <span>or</span>
+          </div>
+
+          <form>
+            <div class="form-email">
+              <input type="email" id="email" name="email" placeholder="Enter email or username" required />
+            </div>
+
+            <div class="form-password">
+              <input type="password" id="password" name="password" placeholder="Enter password" required />
+            </div>
+
+            <div class="login-options">
+              <div class="remember">
+                <input type="checkbox" id="remember" name="remember" />
+                <label for="remember">Remember me</label>
+              </div>
+
+              <a href="#" class="forgot-password">Forgot password?</a>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="login-button">Sign In</button>
+
+              <p class="terms">
+                By continuing, you agree to our
+                <a href="#">Terms</a> and <a href="#">Privacy Policy</a>.
+              </p>
+
+              <p class="signup">Don't have an account? <a href="#">Sign up</a></p>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
